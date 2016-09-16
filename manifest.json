@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Easy Guide",
+  "description": "This extension will allow a user to record a series of actions on a website, then play it back for another user as a tutorial, highlighting where to click and what to type, for example to upload a video to YouTube. This extension enables knowledgeable users to help non-tech-friendly users accomplish tasks online.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "./assets/icon.png",
+    "default_popup": "./index.html"
+  }
+}
