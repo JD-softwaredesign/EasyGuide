@@ -21,12 +21,12 @@ In addition, this project will include:
 ### Wireframes
 
 The extension will have a dropdown menu where users can choose to start or stop a recording, left-click a recording to start playback, or right-click a recording to send, delete, or rename a recording.
+<img src="wireframes/dropdown.png"/>
 
-[dropdown]: docs/wireframes/dropdown.png
 
 The extension will send an e-mail automatically formatted with a link to add the new Guide to receiving user's local storage.
 
-[dropdown]: docs/wireframes/email.png
+<img src="wireframes/email.png"/>
 
 
 ### Architecture and Technologies
