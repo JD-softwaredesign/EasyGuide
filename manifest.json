@@ -8,5 +8,14 @@
   "browser_action": {
     "default_icon": "./assets/icon.png",
     "default_popup": "./index.html"
-  }
+  },
+  "content-scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["./lib/bundle.js"]
+    }
+  ],
+  "permissions": ["activeTab"]
 }
