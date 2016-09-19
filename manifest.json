@@ -14,14 +14,15 @@
     {
       "matches": [ "<all_urls>" ],
       "css": ["./assets/record.css"],
-      "js": ["./lib/record.js"]
+      "js": ["./lib/record.js", "./lib/stop.js"]
     }
   ],
 
   "background": {
-    "scripts": ["./lib/background.js"]
+    "scripts": ["./lib/background.js"],
+    "persistent": false
   },
 
-  "permissions": ["tabs",
+  "permissions": ["activeTab",
     "storage"]
 }

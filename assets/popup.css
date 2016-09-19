@@ -40,8 +40,15 @@ h1 {
 }
 
 .btn {
-  border-radius: 50%;
   width: 30px;
   height: 30px;
+}
+
+.record {
+  border-radius: 50%;
   background-color: red;
+}
+
+.stop {
+  background-color: black;
 }
