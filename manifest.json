@@ -20,9 +20,10 @@
 
   "background": {
     "scripts": ["./lib/background.js"],
-    "persistent": false
+    "persistent": true
   },
 
   "permissions": ["activeTab",
+    "tabs",
     "storage"]
 }
