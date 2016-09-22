@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": [ "<all_urls>" ],
-      "css": [],
+      "css": ["./assets/highlight.css"],
       "js": ["./lib/content_script.js"]
     }
   ],

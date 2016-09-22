@@ -1,0 +1,9 @@
+.guide_highlight {
+  box-sizing: border-box !important;
+  border: 5px solid black !important;
+  background: #27d827 !important;
+}
+
+.guide_highlight:hover {
+  background: #3bc43b !important;
+}
