@@ -22,33 +22,47 @@ h1 {
   text-align: center;
 }
 
-.record {
+.btn {
   border-radius: 50%;
   width: 30px;
   height: 30px;
   background-color: red;
+  box-sizing: border-box;
+  margin: 5px 10px;
+  transition-duration: 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 .stop {
   width: 25px;
   height: 25px;
   background-color: black;
+  border-radius: 0;
 }
 
 .none {
   display: none;
 }
 
-.btn {
-  width: 30px;
-  height: 30px;
+ul {
+  text-align: center;
 }
 
-.record {
-  border-radius: 50%;
-  background-color: red;
+li:first-child {
+  border-top: solid 1px #ccc;
 }
 
-.stop {
-  background-color: black;
+ul li {
+  padding-left: 10px;
+  border-bottom: solid 1px #ccc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+ul li:hover {
+  background: #ebebeb;
+  cursor: pointer;
 }
