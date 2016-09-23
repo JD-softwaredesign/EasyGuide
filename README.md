@@ -1,8 +1,8 @@
 TODO:
-Have guide click take to correct website
 Delete on right click
 Line from mouse to target
-Give popup height and list scrolling (overflow)
+Finish readme
+Make a video
 
 ## EasyGuide
 
