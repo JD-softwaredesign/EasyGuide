@@ -29,7 +29,8 @@ div:first-of-type {
 
 h1 {
   font-size: 24px;
-  padding: 10px;
+  margin-left: 20px;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -41,6 +42,9 @@ h1 {
   box-sizing: border-box;
   margin: 15px 15px;
   transition-duration: 0.3s;
+  vertical-align: middle;
+  font-size: 12px;
+  padding-top: 5px;
 }
 
 .btn:hover {
@@ -60,20 +64,39 @@ h1 {
 
 ul {
   text-align: center;
+  list-style: none;
 }
 
-li:first-child {
+ul > div {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #ccc;
+}
+
+ul div:first-child {
   border-top: solid 1px #ccc;
 }
 
+
 ul li {
   padding-left: 10px;
-  border-bottom: solid 1px #ccc;
   padding-top: 5px;
   padding-bottom: 5px;
+  width: 200px;
+  text-align: left;
+}
+
+ul div div {
+  width: 30px;
+  padding-top: 5px;
 }
 
 ul li:hover {
-  background: #ebebeb;
+  color: #ccc;
+  cursor: pointer;
+}
+
+ul div div:hover {
+  color: red;
   cursor: pointer;
 }
