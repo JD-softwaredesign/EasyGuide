@@ -55,6 +55,7 @@ h1 {
   height: 25px;
   background-color: black;
   border-radius: 10%;
+  box-shadow: none;
 }
 
 ul {
